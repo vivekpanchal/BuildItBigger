@@ -4,7 +4,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -37,16 +36,16 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
-
-    public void tellJoke(View view) {
-//        Joker joker = new Joker();
-//        joker.tellJoke();
-//        Toast.makeText(this, joker.tellJoke(), Toast.LENGTH_SHORT).show();
-
-//        new EndpointAsyncTask().execute(this);
-        EndpointAsyncTask endpointAsyncTask = new EndpointAsyncTask(this);
-        endpointAsyncTask.execute();
-    }
+//
+//    public void tellJoke(View view) {
+////        Joker joker = new Joker();
+////        joker.tellJoke();
+////        Toast.makeText(this, joker.tellJoke(), Toast.LENGTH_SHORT).show();
+//
+////        new EndpointAsyncTask().execute(this);
+//        EndpointAsyncTask endpointAsyncTask = new EndpointAsyncTask(this);
+//        endpointAsyncTask.execute();
+//    }
 
 
 }
