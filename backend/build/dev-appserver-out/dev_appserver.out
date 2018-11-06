@@ -1,0 +1,36 @@
+Warning: Google App Engine Java 7 runtime is deprecated.
+Warning: See https://cloud.google.com/appengine/docs/deprecations/java7
+Nov 06, 2018 9:41:00 PM java.util.prefs.WindowsPreferences <init>
+WARNING: Could not open/create prefs root node Software\JavaSoft\Prefs at root 0x80000002. Windows RegCreateKeyEx(...) returned error code 5.
+Nov 06, 2018 9:41:00 PM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
+INFO: Overwriting system property key 'java.util.logging.config.file', value 'C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\platform\google_appengine\google\appengine\tools\java\config\sdk\logging.properties' with value 'WEB-INF/logging.properties' from 'D:\Udacity Projects\GradlePRojects\ud867-master\FinalProject\backend\build\exploded-backend\WEB-INF\appengine-web.xml'
+Nov 06, 2018 9:41:00 PM com.google.apphosting.utils.jetty.JettyLogger info
+INFO: Logging to JettyLogger(null) via com.google.apphosting.utils.jetty.JettyLogger
+Nov 06, 2018 4:11:00 PM com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
+WARNING: Your working directory, (D:\Udacity Projects\GradlePRojects\ud867-master\FinalProject\backend) is not equal to your 
+web application root (D:\Udacity Projects\GradlePRojects\ud867-master\FinalProject\backend\build\exploded-backend)
+You will not be able to access files from your working directory on the production server.
+
+Nov 06, 2018 4:11:01 PM com.google.apphosting.utils.jetty.JettyLogger info
+INFO: jetty-6.1.x
+Nov 06, 2018 4:11:02 PM com.google.apphosting.utils.jetty.JettyLogger info
+INFO: Started SelectChannelConnector@localhost:8080
+Nov 06, 2018 4:11:02 PM com.google.appengine.tools.development.AbstractModule startup
+INFO: Module instance default is running at http://localhost:8080/
+Nov 06, 2018 4:11:02 PM com.google.appengine.tools.development.AbstractModule startup
+INFO: The admin console is running at http://localhost:8080/_ah/admin
+Nov 06, 2018 9:41:02 PM com.google.appengine.tools.development.DevAppServerImpl doStart
+INFO: Dev App Server is now running
+Nov 06, 2018 9:41:06 PM com.google.appengine.repackaged.com.google.protobuf.UnsafeUtil supportsUnsafeByteBufferOperations
+WARNING: platform method missing - proto runtime falling back to safer methods: java.security.AccessControlException: access denied ("java.lang.RuntimePermission" "accessClassInPackage.sun.misc")
+Nov 06, 2018 9:41:06 PM com.google.appengine.repackaged.com.google.protobuf.UnsafeUtil supportsUnsafeArrayOperations
+WARNING: platform method missing - proto runtime falling back to safer methods: java.security.AccessControlException: access denied ("java.lang.RuntimePermission" "accessClassInPackage.sun.misc")
+Nov 06, 2018 11:29:44 PM com.google.appengine.tools.development.JettyContainerService$ScannerListener fileChanged
+INFO: D:\Udacity Projects\GradlePRojects\ud867-master\FinalProject\backend\build\exploded-backend\WEB-INF\appengine-web.xml updated, reloading the webapp!
+Nov 06, 2018 11:29:46 PM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
+INFO: Overwriting system property key 'java.util.logging.config.file', value 'C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\platform\google_appengine\google\appengine\tools\java\config\sdk\logging.properties' with value 'WEB-INF/logging.properties' from 'D:\Udacity Projects\GradlePRojects\ud867-master\FinalProject\backend\build\exploded-backend\WEB-INF\appengine-web.xml'
+Nov 06, 2018 11:29:47 PM com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
+WARNING: Your working directory, (D:\Udacity Projects\GradlePRojects\ud867-master\FinalProject\backend) is not equal to your 
+web application root (D:\Udacity Projects\GradlePRojects\ud867-master\FinalProject\backend\build\exploded-backend)
+You will not be able to access files from your working directory on the production server.
+
